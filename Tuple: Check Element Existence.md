@@ -10,8 +10,20 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
+```
+numbers = (10, 20, 30, 40, 50)
+item = int(input())
+if item in numbers:
+    print("Element exists in the tuple")
+else:
+    print("Element does not exist in the tuple")
+```
 
 ## Output
+```
+30
+Element exists in the tuple
+```
 
 ## Result
+  Thus , the program has been executed successfully.
