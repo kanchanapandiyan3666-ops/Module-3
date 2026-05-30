@@ -14,7 +14,16 @@ To write a Python program that filters out and returns all elements from a list 
 5. Print the final filtered list.
 
 ## 🧾 Program
-Add code here
+```
+import re
+text = input()
+words = text.split()
+result = [word for word in words if not re.search(r'e', word, re.IGNORECASE)]
+print(result)
+```
 ## Output
+```
+apple mango banana orange kiwi
+['mango', 'banana', 'kiwi']
 
 ## Result
