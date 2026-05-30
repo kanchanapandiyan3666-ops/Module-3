@@ -25,5 +25,6 @@ print(result)
 ```
 apple mango banana orange kiwi
 ['mango', 'banana', 'kiwi']
-
+```
 ## Result
+   Thus , the program has been executed successfully.
